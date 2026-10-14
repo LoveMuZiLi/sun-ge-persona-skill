@@ -14,3 +14,4 @@ raw-media/
 node_modules/
 *.tgz
 .npmrc
+!docs/showcase/demo.mp4

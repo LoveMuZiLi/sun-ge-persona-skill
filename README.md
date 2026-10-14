@@ -83,6 +83,14 @@ skills/
 
 安装包本身不调用模型；把 skill 交给你用的 AI，再开始聊。平时不用先读完资料库。
 
+## 🎬 同一个问题，两种接法
+
+分别加上「整活一点」和「严肃点」，看看它怎么接话。下面两段来自这次 skill 试写，均为非官方原创模拟。
+
+[![孙哥上号：同一个问题，两种接法](https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/docs/showcase/demo.gif)](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/showcase/demo.mp4)
+
+[下载 30 秒竖版视频](https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/docs/showcase/demo.mp4) · [查看完整试写](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/showcase/transcript.md) · [复制分享文案](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/share-copy.md)
+
 ## ⚡ 直接开聊
 
 让AI读取 [孙哥skill](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/SKILL.md)，把下面这段丢给它。
@@ -145,6 +153,8 @@ skills/
 </details>
 
 ---
+
+用着顺手，右上角点个 **Star**，方便下次找回来。想分享给朋友，这里有[短片和文案](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/share-copy.md)。
 
 <p align="center"><b>非官方项目 · 基于公开表达的原创模拟</b></p>
 
