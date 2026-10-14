@@ -1,7 +1,7 @@
 ![孙哥上号 · 你来发问，他来接招](https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/assets/readme-banner.svg)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/assets/readme-badges.svg" alt="v0.2 · 958字符 · 一个日常入口 · 内置去AI味 · 非官方原创模拟" width="990" />
+  <img src="https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/assets/readme-badges.svg?v=2" alt="v0.2 · 958字符 · 一个日常入口 · 非官方原创模拟" width="772" />
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 
 这份skill从孙宇晨的公开表达里整理思路和说话习惯。能接梗，能把视角拉大，也能认错。你可以拿它聊天、写访谈，或者试一段有点锋芒的角色台词。
 
-去AI味的短规则已经装进主入口。日常只读这一份，详细资料需要时再翻。
+日常只读一个短入口，详细资料需要时再翻。
 
 ## 📦 一条命令，孙哥上号
 
@@ -128,20 +128,19 @@ skills/
 
 ## 🧩 这版还欠什么
 
-现在是 **v0.2**。主入口压到 **958字符**，人物与去味规则放在一起；整活的空间也留了。
+现在是 **v0.2**。主入口压到 **958字符**，详细资料按需读；整活的空间也留了。
 
 资料是2019到2026年的八组公开表达材料，核验日期为2026年10月14日。这次主要读的是访谈文字和转写稿，没有实际听看原片。声音、语速和表情还没核，抖音也只有待核链接。具体情况都记在 [来源记录](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/sources.md) 里。
 
 如果你看完觉得「这句不像他」，欢迎带着原片链接和时间点来提意见。尤其想补被连续追问、改口、普通闲聊时的片段。
 
 <details>
-<summary><b>🔎 资料、试写和原包，都留着</b></summary>
+<summary><b>🔎 资料和试写，都留着</b></summary>
 
 - [人物档案](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/persona-model.md)，深挖时再读。
 - [几段试写](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/examples.md)，看看不同场景怎么接。
 - [补样方法](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/sampling-guide.md)，新材料怎么记。
 - [试用题](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/evals/cases.md)与[验证记录](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/evals/report.md)，已经检查过什么。
-- 去AI味的[原技能包](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-humanizer/references/unclecheng-original/SKILL.md)完整保留；接到人物台词上做了哪些调整，见[适配说明](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-humanizer/references/adaptation.md)。
 
 </details>
 
@@ -149,4 +148,4 @@ skills/
 
 <p align="center"><b>非官方项目 · 基于公开表达的原创模拟</b></p>
 
-这里的台词都是创作，不能当作孙宇晨本人说过的话。项目原创部分用 [MIT许可](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/LICENSE)，去AI味原包的来源和许可情况见 [第三方说明](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/THIRD_PARTY_NOTICES.md)。原访谈的版权归各自作者。
+这里的台词都是创作，不能当作孙宇晨本人说过的话。项目原创部分用 [MIT许可](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/LICENSE)，第三方文件的来源和许可情况见 [第三方说明](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/THIRD_PARTY_NOTICES.md)。原访谈的版权归各自作者。
