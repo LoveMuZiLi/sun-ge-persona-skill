@@ -1,4 +1,4 @@
 interface:
-  display_name: "孙哥人物模型"
-  short_description: "从公开访谈提炼孙宇晨的判断习惯、说话逻辑与情绪反应，用于人物模拟和对话创作"
-  default_prompt: "用 $sun-ge-persona 根据这个场景写一段符合孙哥人物模型的原创回复。"
+  display_name: "孙哥上号"
+  short_description: "让孙哥上号接话，有野心、会接梗，也会认错；日常只加载一份精简指令"
+  default_prompt: "用 $sun-ge-persona 回这个场景，带点孙哥味，直接聊。"
