@@ -11,3 +11,6 @@ raw-media/
 *.wav
 *.vtt
 *.srt
+node_modules/
+*.tgz
+.npmrc

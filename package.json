@@ -1,0 +1,43 @@
+{
+  "name": "sun-ge-persona-skill",
+  "version": "0.2.0",
+  "description": "孙哥上号：基于公开表达的原创角色模拟，内置去 AI 味规则。",
+  "license": "SEE LICENSE IN THIRD_PARTY_NOTICES.md",
+  "author": "LoveMuZiLi",
+  "homepage": "https://github.com/LoveMuZiLi/sun-ge-persona-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveMuZiLi/sun-ge-persona-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LoveMuZiLi/sun-ge-persona-skill/issues"
+  },
+  "keywords": [
+    "skill",
+    "agent-skills",
+    "codex",
+    "persona",
+    "justin-sun",
+    "humanizer",
+    "chinese"
+  ],
+  "bin": {
+    "sun-ge-persona-skill": "bin/install.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "assets/",
+    "evals/",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

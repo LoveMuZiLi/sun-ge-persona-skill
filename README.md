@@ -1,15 +1,15 @@
-![孙哥上号 · 你来发问，他来接招](assets/readme-banner.svg)
+![孙哥上号 · 你来发问，他来接招](https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/assets/readme-banner.svg)
 
 <p align="center">
-  <img src="assets/readme-badges.svg" alt="v0.2 · 958字符 · 一个日常入口 · 内置去AI味 · 非官方原创模拟" width="990" />
+  <img src="https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/assets/readme-badges.svg" alt="v0.2 · 958字符 · 一个日常入口 · 内置去AI味 · 非官方原创模拟" width="990" />
 </p>
 
 <p align="center">
-  <a href="skills/sun-ge-persona/SKILL.md"><b>⚡ 让孙哥上号</b></a>
+  <a href="https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/SKILL.md"><b>⚡ 让孙哥上号</b></a>
   &nbsp; · &nbsp;
-  <a href="skills/sun-ge-persona/references/examples.md">🗣 看他怎么接话</a>
+  <a href="https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/examples.md">🗣 看他怎么接话</a>
   &nbsp; · &nbsp;
-  <a href="skills/sun-ge-persona/references/sources.md">🔎 翻翻出处</a>
+  <a href="https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/sources.md">🔎 翻翻出处</a>
 </p>
 
 ---
@@ -22,7 +22,7 @@
 
 ## ⚡ 直接开聊
 
-让AI读取 [孙哥skill](skills/sun-ge-persona/SKILL.md)，把下面这段丢给它。
+让AI读取 [孙哥skill](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/SKILL.md)，把下面这段丢给它。
 
 ```text
 用 sun-ge-persona 回我。
@@ -63,7 +63,26 @@
 
 默认就在中间，带点孙哥味。别让它逢人就开发布会，普通闲聊也可以只回两句。
 
-## 📦 放到你用的AI里
+## 📦 一条命令，孙哥上号
+
+在你的项目目录里运行，需要 Node.js 18 或更高版本。
+
+```sh
+npx --yes sun-ge-persona-skill
+```
+
+两个 skill 会一起放进当前项目的 `.agents/skills/`。已有同名文件夹时会停下来，先留住你原来的版本。
+
+想放到别的技能目录，就把路径告诉它。
+
+```sh
+npx --yes sun-ge-persona-skill --dir "你的技能目录"
+```
+
+也可以用 `npm install sun-ge-persona-skill` 下载包，完整技能在 `node_modules/sun-ge-persona-skill/skills/`。安装包本身不调用模型；把 skill 交给你用的 AI，再开始聊。
+
+<details>
+<summary><b>手动放进去也行</b></summary>
 
 把 `skills` 下的两个完整文件夹放进工具的技能目录，保持相邻，参考文件也带上。
 
@@ -73,24 +92,26 @@ skills/
 └── sun-ge-humanizer/    ← 单独细修已有台词时用
 ```
 
-工具不支持安装skill的话，把整个项目交给AI，让它从 [SKILL.md](skills/sun-ge-persona/SKILL.md) 开始读也可以。平时不用先读完资料库，更不用每次重跑一套检测报告。
+工具不支持安装skill的话，把整个项目交给AI，让它从 [SKILL.md](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/SKILL.md) 开始读也可以。平时不用先读完资料库，更不用每次重跑一套检测报告。
+
+</details>
 
 ## 🧩 这版还欠什么
 
 现在是 **v0.2**。主入口压到 **958字符**，人物与去味规则放在一起；整活的空间也留了。
 
-资料是2019到2026年的八组公开表达材料，核验日期为2026年10月14日。这次主要读的是访谈文字和转写稿，没有实际听看原片。声音、语速和表情还没核，抖音也只有待核链接。具体情况都记在 [来源记录](skills/sun-ge-persona/references/sources.md) 里。
+资料是2019到2026年的八组公开表达材料，核验日期为2026年10月14日。这次主要读的是访谈文字和转写稿，没有实际听看原片。声音、语速和表情还没核，抖音也只有待核链接。具体情况都记在 [来源记录](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/sources.md) 里。
 
 如果你看完觉得「这句不像他」，欢迎带着原片链接和时间点来提意见。尤其想补被连续追问、改口、普通闲聊时的片段。
 
 <details>
 <summary><b>🔎 资料、试写和原包，都留着</b></summary>
 
-- [人物档案](skills/sun-ge-persona/references/persona-model.md)，深挖时再读。
-- [几段试写](skills/sun-ge-persona/references/examples.md)，看看不同场景怎么接。
-- [补样方法](skills/sun-ge-persona/references/sampling-guide.md)，新材料怎么记。
-- [试用题](evals/cases.md)与[验证记录](evals/report.md)，已经检查过什么。
-- 去AI味的[原技能包](skills/sun-ge-humanizer/references/unclecheng-original/SKILL.md)完整保留；接到人物台词上做了哪些调整，见[适配说明](skills/sun-ge-humanizer/references/adaptation.md)。
+- [人物档案](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/persona-model.md)，深挖时再读。
+- [几段试写](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/examples.md)，看看不同场景怎么接。
+- [补样方法](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/sampling-guide.md)，新材料怎么记。
+- [试用题](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/evals/cases.md)与[验证记录](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/evals/report.md)，已经检查过什么。
+- 去AI味的[原技能包](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-humanizer/references/unclecheng-original/SKILL.md)完整保留；接到人物台词上做了哪些调整，见[适配说明](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-humanizer/references/adaptation.md)。
 
 </details>
 
@@ -98,4 +119,4 @@ skills/
 
 <p align="center"><b>非官方项目 · 基于公开表达的原创模拟</b></p>
 
-这里的台词都是创作，不能当作孙宇晨本人说过的话。项目原创部分用 [MIT许可](LICENSE)，去AI味原包的来源和许可情况见 [第三方说明](THIRD_PARTY_NOTICES.md)。原访谈的版权归各自作者。
+这里的台词都是创作，不能当作孙宇晨本人说过的话。项目原创部分用 [MIT许可](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/LICENSE)，去AI味原包的来源和许可情况见 [第三方说明](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/THIRD_PARTY_NOTICES.md)。原访谈的版权归各自作者。
