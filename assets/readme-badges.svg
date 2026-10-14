@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="64" viewBox="0 0 990 64" role="img" aria-labelledby="title">
+  <title id="title">v0.2 · 958字符 · 一个日常入口 · 内置去AI味 · 非官方原创模拟</title>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="17" font-weight="600">
+    <rect x="0" y="12" width="108" height="40" rx="9" fill="#caff36"/><text x="54" y="38" text-anchor="middle" fill="#17220f">v0.2</text>
+    <rect x="120" y="12" width="163" height="40" rx="9" fill="#15231a"/><text x="202" y="38" text-anchor="middle" fill="#d5eecc">958 字符</text>
+    <rect x="295" y="12" width="193" height="40" rx="9" fill="#15231a"/><text x="391" y="38" text-anchor="middle" fill="#d5eecc">1 个日常入口</text>
+    <rect x="500" y="12" width="206" height="40" rx="9" fill="#15231a"/><text x="603" y="38" text-anchor="middle" fill="#d5eecc">内置去 AI 味</text>
+    <rect x="718" y="12" width="272" height="40" rx="9" fill="#ff8654"/><text x="854" y="38" text-anchor="middle" fill="#182010">非官方 · 原创模拟</text>
+  </g>
+</svg>

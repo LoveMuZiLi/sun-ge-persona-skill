@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="510" viewBox="0 0 1500 510" role="img" aria-labelledby="title desc">
+  <title id="title">孙哥上号 · Sun Ge Persona Skill</title>
+  <desc id="desc">黑底荧光绿的项目横幅，右侧为SG字样与聊天气泡。非官方原创人物模拟。</desc>
+  <defs>
+    <linearGradient id="back" x2="1" y2="1"><stop stop-color="#06110e"/><stop offset="1" stop-color="#101d16"/></linearGradient>
+    <linearGradient id="orb" x2="1" y2="1"><stop stop-color="#deff73"/><stop offset=".6" stop-color="#caff36"/><stop offset="1" stop-color="#7ec932"/></linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#caff36" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1500" height="510" rx="26" fill="url(#back)"/>
+  <rect width="1500" height="510" rx="26" fill="url(#grid)"/>
+  <path d="M950 0L760 510H835L1025 0Z" fill="#caff36" opacity=".045"/>
+  <path d="M1450 36H1465V51M1450 474H1465V459M35 36H50M35 36V51M35 474H50M35 474V459" fill="none" stroke="#b9d0b6" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="66" y="56" width="128" height="32" rx="16" fill="#caff36"/>
+    <text x="130" y="78" fill="#102111" font-size="17" font-weight="800" text-anchor="middle" letter-spacing="2">PERSONA</text>
+    <text x="214" y="79" fill="#b7c7b2" font-size="20" letter-spacing="3">SUN GE / v0.2</text>
+    <text x="70" y="170" fill="#caff36" font-size="20" letter-spacing="6">YOUR NEXT CONVERSATION</text>
+    <text x="64" y="294" fill="#f4f9ea" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="114" font-weight="900" letter-spacing="4">孙哥上号</text>
+    <text x="70" y="357" fill="#b7c7b2" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="30">你来发问，他来接招。</text>
+    <path d="M70 408H815" stroke="#a1b39b" stroke-opacity=".28"/>
+    <text x="70" y="447" fill="#839a7f" font-size="17" letter-spacing="2">UNOFFICIAL PROJECT · ORIGINAL ROLEPLAY</text>
+    <circle cx="1190" cy="246" r="188" fill="none" stroke="#caff36" stroke-opacity=".17"/>
+    <circle cx="1190" cy="246" r="161" fill="none" stroke="#caff36" stroke-opacity=".28" stroke-dasharray="3 11"/>
+    <path d="M1098 125H1290A37 37 0 0 1 1327 162V291A37 37 0 0 1 1290 328H1218L1150 383V328H1098A37 37 0 0 1 1061 291V162A37 37 0 0 1 1098 125Z" fill="url(#orb)" transform="rotate(-7 1190 246)"/>
+    <text x="1189" y="267" fill="#0a1910" font-size="106" font-weight="900" text-anchor="middle" font-style="italic" transform="rotate(-7 1190 246)">SG</text>
+    <rect x="1285" y="94" width="133" height="40" rx="20" fill="#ff8654" transform="rotate(9 1350 114)"/>
+    <text x="1351" y="120" fill="#182010" font-size="17" font-weight="800" text-anchor="middle" transform="rotate(9 1350 114)">LET'S TALK</text>
+    <circle cx="1033" cy="341" r="10" fill="#ff8654"/>
+    <path d="M1360 332V358M1347 345H1373" stroke="#caff36" stroke-width="4"/>
+  </g>
+</svg>
