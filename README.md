@@ -5,6 +5,8 @@
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/sun-ge-persona-skill"><b>📦 npm 下载</b></a>
+  &nbsp; · &nbsp;
   <a href="https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/SKILL.md"><b>⚡ 让孙哥上号</b></a>
   &nbsp; · &nbsp;
   <a href="https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/references/examples.md">🗣 看他怎么接话</a>
@@ -19,6 +21,67 @@
 这份skill从孙宇晨的公开表达里整理思路和说话习惯。能接梗，能把视角拉大，也能认错。你可以拿它聊天、写访谈，或者试一段有点锋芒的角色台词。
 
 去AI味的短规则已经装进主入口。日常只读这一份，详细资料需要时再翻。
+
+## 📦 一条命令，孙哥上号
+
+已经上架 [npm：sun-ge-persona-skill](https://www.npmjs.com/package/sun-ge-persona-skill)。电脑上有 Node.js 18 或更高版本，就在你的项目目录里运行：
+
+```sh
+npx --yes sun-ge-persona-skill
+```
+
+两个 skill 会一起放进当前项目的 `.agents/skills/`。已有同名文件夹时会停下来，先留住你原来的版本。
+
+想放到别的技能目录，就把路径告诉它：
+
+```sh
+npx --yes sun-ge-persona-skill --dir "你的技能目录"
+```
+
+<details>
+<summary><b>🍺 用 brew 的朋友，从这里开始</b></summary>
+
+macOS / Linux 上，可以先用 [Homebrew 安装 Node](https://formulae.brew.sh/formula/node)，自带 npm 和 npx，再安装 skill：
+
+```sh
+brew install node
+npx --yes sun-ge-persona-skill
+```
+
+已有 Node 的话，直接跑第二条。当前没有 `brew install sun-ge-persona-skill` 的直接入口；这里用 brew 装 Node，再从 npm 安装 skill。Windows 原生终端直接用上面的 npx 命令即可，前提是已经装好 Node。
+
+</details>
+
+<details>
+<summary><b>📥 只想下载文件，不用安装器</b></summary>
+
+装到项目依赖里，之后自行复制技能文件：
+
+```sh
+npm install sun-ge-persona-skill
+```
+
+完整技能在 `node_modules/sun-ge-persona-skill/skills/`，下载后可以自行复制。
+
+只拿压缩包：
+
+```sh
+npm pack sun-ge-persona-skill
+```
+
+会在当前目录得到 `.tgz` 文件。也可以[直接下载 GitHub ZIP](https://github.com/LoveMuZiLi/sun-ge-persona-skill/archive/refs/heads/main.zip)。解压后，把 `skills` 下的两个完整文件夹放进工具的技能目录，保持相邻，参考文件也带上：
+
+```text
+skills/
+├── sun-ge-persona/      ← 日常聊天，从这里开始
+└── sun-ge-humanizer/    ← 单独细修已有台词时用
+```
+
+工具不支持安装 skill 的话，把整个项目交给 AI，让它从 [SKILL.md](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/SKILL.md) 开始读也可以。
+
+</details>
+
+安装包本身不调用模型；把 skill 交给你用的 AI，再开始聊。平时不用先读完资料库。
 
 ## ⚡ 直接开聊
 
@@ -62,39 +125,6 @@
 **「严肃点」**，收起花活，把眼前的问题讲清楚。
 
 默认就在中间，带点孙哥味。别让它逢人就开发布会，普通闲聊也可以只回两句。
-
-## 📦 一条命令，孙哥上号
-
-在你的项目目录里运行，需要 Node.js 18 或更高版本。
-
-```sh
-npx --yes sun-ge-persona-skill
-```
-
-两个 skill 会一起放进当前项目的 `.agents/skills/`。已有同名文件夹时会停下来，先留住你原来的版本。
-
-想放到别的技能目录，就把路径告诉它。
-
-```sh
-npx --yes sun-ge-persona-skill --dir "你的技能目录"
-```
-
-也可以用 `npm install sun-ge-persona-skill` 下载包，完整技能在 `node_modules/sun-ge-persona-skill/skills/`。安装包本身不调用模型；把 skill 交给你用的 AI，再开始聊。
-
-<details>
-<summary><b>手动放进去也行</b></summary>
-
-把 `skills` 下的两个完整文件夹放进工具的技能目录，保持相邻，参考文件也带上。
-
-```text
-skills/
-├── sun-ge-persona/      ← 日常聊天，从这里开始
-└── sun-ge-humanizer/    ← 单独细修已有台词时用
-```
-
-工具不支持安装skill的话，把整个项目交给AI，让它从 [SKILL.md](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/skills/sun-ge-persona/SKILL.md) 开始读也可以。平时不用先读完资料库，更不用每次重跑一套检测报告。
-
-</details>
 
 ## 🧩 这版还欠什么
 
