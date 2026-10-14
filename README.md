@@ -83,13 +83,17 @@ skills/
 
 安装包本身不调用模型；把 skill 交给你用的 AI，再开始聊。平时不用先读完资料库。
 
-## 🎬 同一个问题，两种接法
+## 🎬 看孙哥在线接招
 
-分别加上「整活一点」和「严肃点」，看看它怎么接话。下面两段来自这次 skill 试写，均为非官方原创模拟。
+深色玻璃聊天窗，青色和紫色点缀。问题一个字一个字敲进去，模型读取当前 skill，回答边生成边出现；继续追问，再从整活切到认真聊。
 
-[![孙哥上号：同一个问题，两种接法](https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/docs/showcase/demo.gif)](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/showcase/demo.mp4)
+横版是实际模型对话的录屏，较长的等待已剪短。竖版重放同一段对话，方便在手机上看。界面里的「孙哥」是非官方角色模拟。
 
-[下载 30 秒竖版视频](https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/docs/showcase/demo.mp4) · [查看完整试写](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/showcase/transcript.md) · [复制分享文案](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/share-copy.md)
+[![孙哥上号：输入、追问，切换聊天语气](https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/docs/showcase/demo.gif?v=chat2)](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/showcase/demo-wide.mp4)
+
+[下载竖版视频](https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/docs/showcase/demo.mp4) · [下载横版录屏](https://raw.githubusercontent.com/LoveMuZiLi/sun-ge-persona-skill/main/docs/showcase/demo-wide.mp4) · [查看完整对话](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/showcase/transcript.md) · [复制分享文案](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/share-copy.md)
+
+头像与展示媒体的来源、许可见[素材说明](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/docs/showcase/media-credits.md)。
 
 ## ⚡ 直接开聊
 
@@ -158,4 +162,4 @@ skills/
 
 <p align="center"><b>非官方项目 · 基于公开表达的原创模拟</b></p>
 
-这里的台词都是创作，不能当作孙宇晨本人说过的话。项目原创部分用 [MIT许可](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/LICENSE)，第三方文件的来源和许可情况见 [第三方说明](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/THIRD_PARTY_NOTICES.md)。原访谈的版权归各自作者。
+这里的台词都是创作，不能当作孙宇晨本人说过的话。原创 skill 和代码用 [MIT许可](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/LICENSE)，含头像的演示视频、GIF和截图按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 分享。具体来源和范围见 [第三方说明](https://github.com/LoveMuZiLi/sun-ge-persona-skill/blob/main/THIRD_PARTY_NOTICES.md)。原访谈的版权归各自作者。
